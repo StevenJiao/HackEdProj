@@ -1,3 +1,3 @@
 jobs = {
-    "Company Name" : "Job title, Work level, Work duration, Cover letter, Location"
+    "Company Name" : "Job title, Work level, Work duration, Location, Cover letter"
 }
