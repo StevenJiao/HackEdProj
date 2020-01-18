@@ -12,3 +12,5 @@ def login():
     login_url = "https://www.placeprocanada.com/students/JobDetails.aspx?ID=55735&TID=3&YID=2020&CID=5098"
     login_result = session_requests.get(login_url)
 
+# Key: Company Name
+# Array index order: Job title, Work level, Work duration, Location, Cover letter requirement
