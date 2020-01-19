@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 def scraper(weblink):
     page = requests.get(weblink)
     soup = BeautifulSoup(page.text, 'html.parser')
-    print((soup.find('ul', {'class':'event-list data-list'}).get_text()).find('h4'))
+    print((soup.find('div', {'class':'list-item-content'})))
 
 
 
