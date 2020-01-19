@@ -2,7 +2,6 @@ import requests
 from selenium import webdriver
 from lxml import html
 from bs4 import BeautifulSoup
-127.0.0.1   localhost
 
 def scraper():
     driver = webdriver.Chrome("/Users/stevenjiao/Documents/chromedriver")
